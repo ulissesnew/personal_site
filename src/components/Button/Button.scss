@@ -1,0 +1,27 @@
+
+
+.button {
+    border-radius: 20px;
+    padding: 0 10px;
+    text-decoration: none;
+    display: flex;
+    margin: 5px 5px 5px;
+    .content {
+        text-align: center;
+        display: flex;
+        margin: 0 auto;
+        p {
+            font-size: 14px;
+            letter-spacing: 1.5px;
+        }
+        small {
+            font-size: 1.9rem;
+        }
+    }
+    
+    
+    
+}
+.button:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,27 @@
+
+
+.nav {
+    display: flex;
+    margin-top: 5vh;
+    h2 {
+        position: relative;
+        left: 50px;
+        right: 50px;
+        width: 200px;
+        small {
+            font-size: 2rem;
+            color: var(--BrightOrange);
+        }
+    }
+    .navbar {
+        position: relative;
+        float: left;
+        display: flex;
+        right: 0px;
+        left: 100px;
+        justify-content: flex-end;
+        align-items: center;
+        // background-color: rgb(210, 210, 237);
+    }
+}
+
