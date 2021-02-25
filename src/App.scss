@@ -1,14 +1,18 @@
-$BrightYellow: #fed838;
-$BrightOrange: #F45B25;
-$VeryDark: #212429;
-$DarkGray: #67717d;
-$SlightlyBlue:#93C0D3;
-$StrongBlue:#048ECC;
-$VeryLightGray:#E6E6E6;
-$White:#FFFFFF;
-$BrightOrange:#F15C25;
-$HiddenText:#F8F9FB;
-$SoftOrange:#FCD4BE;
+
+:root {
+  --BrightYellow: #fed838;
+  --BrightOrange: #F45B25;
+  --VeryDark: #212429;
+  --DarkGray: #67717d;
+  --SlightlyBlue:#93C0D3;
+  --StrongBlue:#048ECC;
+  --VeryLightGray:#E6E6E6;
+  --White:#FFFFFF;
+  --Orange:#F15C25;
+  --HiddenText:#F8F9FB;
+  --SoftOrange:#FCD4BE;
+}
+
 
 
 .App {
@@ -16,16 +20,17 @@ $SoftOrange:#FCD4BE;
 }
 
 .App-header {
-  background-color: $White;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  font-size: calc(10px + 2vmin);
-  color: rgb(32, 31, 31);
+  background-color: var(--White);
+  // min-height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: space-around;
+  // font-size: calc(10px + 2vmin);
+  color: var(--VeryDark);
+
 }
 
 .App-link {
-  color: $VeryDark;
+  color: var(--VeryDark);
 }
