@@ -9,21 +9,21 @@ const Navbar = () => {
     return (
         <div className="nav" id="nav"> 
                 <h2>John Doe <small>.</small></h2>
-            <div className="navbar">
+            <nav className="navbar">
                 <Link url="#home" text="Home"/>
                 <Link url="#about" text="About me"/>
-                <Link url="#about" text="What I do" />
+                <Link url="#experience" text="What I do" />
                 <Link url="#portfolio" text="Portfolio"/>
                 <Link url="#blog" text="Blog" />
 
                 <Button url="#contact"
-                    text="Contact" 
+                    text="Contact"
                     color= "White"
                     bgColor="BrightOrange"
                     arrow={true}
                     size="small"
                  />
-            </div>
+            </nav>
 
         </div>
     )

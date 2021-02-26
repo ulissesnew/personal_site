@@ -2,10 +2,12 @@
 
 .button {
     border-radius: 20px;
-    padding: 0 10px;
+    padding: 5px 10px;
     text-decoration: none;
     display: flex;
-    margin: 5px 5px 5px;
+    justify-content: center;
+    align-items: center;
+    // margin: 5px 5px 5px;
     .content {
         text-align: center;
         display: flex;
@@ -13,9 +15,10 @@
         p {
             font-size: 14px;
             letter-spacing: 1.5px;
+            // padding: 5px 10px;
         }
         small {
-            font-size: 1.9rem;
+            font-weight: bold;
         }
     }
     
