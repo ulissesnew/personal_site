@@ -1,0 +1,14 @@
+
+
+ #text-shadow {
+    position: absolute;
+    z-index: -1;
+    font-size: 8rem;
+    opacity: 0.1;
+    color: silver;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        line-height: 0.8;
+    }
+}

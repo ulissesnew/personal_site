@@ -21,21 +21,10 @@
 }
 
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-header {
-  background-color: var(--White);
-  // min-height: 100vh;
-  // display: flex;
-  // flex-direction: column;
-  // margin: auto;
-  // align-items: center;
-  // justify-content: space-around;
-  // font-size: calc(10px + 2vmin);
-  color: var(--VeryDark);
-
-}
 
 .App-link {
   color: var(--VeryDark);

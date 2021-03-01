@@ -1,0 +1,15 @@
+
+.section {
+    border: 1px solid green;
+    height: 80vh;
+    margin: 0 1% 200px;
+}
+
+@media(max-width:500px){
+    .section{
+        height: 100%;
+        margin-bottom:  50px;
+
+    }
+}
+
