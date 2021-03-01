@@ -1,0 +1,48 @@
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    padding: 5px;
+    span {
+        width: 40px;
+        height: 5px;
+        margin: 2px 2px 2px;
+        background-color: var(--DarkGray);
+        border-radius: 3px;
+    }
+    #rotate-left {
+        transform: rotate(35deg);
+        position: relative;
+        top: 8px;
+        transition: 0.5s ease-in;
+        background-color: var(--Orange);
+    }
+    #rotate-right {
+        transform: rotate(145deg);
+        position: relative;
+        top: 0;
+        transition: 0.5s ease-in;
+        background-color: var(--Orange);
+
+    }
+    #none {
+        display: none;
+    }
+}
+
+.menu:hover {
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+
+
+@media(min-width: 700px){
+    .menu {
+        display: none;
+    }
+}

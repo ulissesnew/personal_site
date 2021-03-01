@@ -1,27 +1,53 @@
 
 
 .nav {
-    display: flex;
+    display: grid;
     margin-top: 5vh;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
+    
     h2 {
         position: relative;
-        left: 50px;
-        right: 50px;
-        width: 200px;
         small {
             font-size: 2rem;
             color: var(--BrightOrange);
         }
+        text-align: center;
     }
     .navbar {
         position: relative;
         float: left;
         display: flex;
         right: 0px;
-        left: 100px;
-        justify-content: flex-end;
         align-items: center;
-        // background-color: rgb(210, 210, 237);
+    }
+    #width-screen {
+        width: 80px;
+        height: 20px;
+        padding: 1px 1px;
+        border: 1px solid silver;
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: blue;
     }
 }
 
+@media(max-width:700px){
+    .nav {
+        display: flex;
+        flex-direction: column;
+        .navbar {
+            display: none;
+            flex-direction: column;
+            width: 250px;
+            margin: auto auto 50px;
+            a {
+                line-height: 2;
+            }
+            
+        }
+    }
+   
+}
