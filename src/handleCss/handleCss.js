@@ -17,5 +17,5 @@ export const borderRadius = (input) => {
 
 
 export const joinClassName = (one, two, three, four, five) => {
-    return [one, two].join(" ");
+    return [one, two, three].join(" ");
 };

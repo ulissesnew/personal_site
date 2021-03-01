@@ -21,21 +21,33 @@
         right: 0px;
         align-items: center;
     }
+    #width-screen {
+        width: 80px;
+        height: 20px;
+        padding: 1px 1px;
+        border: 1px solid silver;
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: blue;
+    }
 }
 
 @media(max-width:700px){
     .nav {
         display: flex;
         flex-direction: column;
-    }
-    .navbar {
-        display: none;
-        flex-direction: column;
-        width: 250px;
-        margin: auto auto 50px;
-        a {
-            line-height: 2;
+        .navbar {
+            display: none;
+            flex-direction: column;
+            width: 250px;
+            margin: auto auto 50px;
+            a {
+                line-height: 2;
+            }
+            
         }
-        
     }
+   
 }

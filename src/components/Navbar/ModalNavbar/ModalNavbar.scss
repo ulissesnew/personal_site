@@ -1,0 +1,33 @@
+
+
+#modal-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a {
+        margin: 1% 1% 1%;
+    }
+    animation: 1s ease-out modal;
+    transition: ease-in  0.5s all;
+}
+
+@keyframes modal{
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    50% {
+        opacity: 0.5;
+        box-shadow: 0 1px 5px var(--DarkGray);
+        background-color: var(--HiddenText);
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 0 3px 5px var(--DarkGray);
+        transform: translateY(0);
+
+    }
+    
+}

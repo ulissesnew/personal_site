@@ -8,7 +8,8 @@ import {sizeImage, borderRadius, joinClassName} from "../../handleCss/handleCss"
     return (
         <img 
             id="image" className={classCss} 
-            src={url} alt={alt} 
+             alt={alt} 
+             src={url}
         />
     )
 }
