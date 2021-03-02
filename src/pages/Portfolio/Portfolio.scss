@@ -1,0 +1,44 @@
+#portfolio {
+    overflow-y: scroll;
+}
+.portfolio {
+    width: 70%;
+    margin: auto;
+   
+    .top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-end;
+        margin-bottom: 20px;
+        .small {
+            width: 100%;
+        }
+        #buttons-search{
+            width: 100%;
+            display: flex;
+            position: relative;
+            p {
+                margin: 1%;
+            }
+        }
+    }
+}
+@media(max-width:500px){
+.portfolio {
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        #buttons-search {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: auto;
+            p{
+                margin: 10px 10px 10px;
+            }
+        }
+    }
+}
+   
+}

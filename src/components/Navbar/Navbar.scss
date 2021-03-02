@@ -5,7 +5,16 @@
     margin-top: 5vh;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 4fr;
-    
+    #circle-yellow{
+        position: absolute;
+        top: -95px;
+        left: 0;
+        width: 199px;
+        height: 190px;
+        background-color: var(--BrightYellow);
+        border-radius: 50%;
+        z-index: -1;
+    }
     h2 {
         position: relative;
         small {
