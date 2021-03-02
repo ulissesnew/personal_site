@@ -2,7 +2,7 @@ import React from 'react';
 import  './BigText.scss';
 
 
-const BigText = ({small,title,content, character }) => {
+const BigText = ({small,title,content, character}) => {
     return (
         <div className="bigtext">
             <small className="small">{small}</small>

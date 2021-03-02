@@ -1,0 +1,49 @@
+
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid gray;
+    border-radius: 5%;
+    box-shadow: 0 3px 5px var(--DarkGray);
+    padding: 1%;
+    letter-spacing: 1.5px;
+    .content {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        line-height: 1;
+        position: relative;
+        color: white;
+        height: 300px;
+        width: 300px;
+        border-radius: 5%;
+        span {
+            margin: 5px 20px 2px;
+        }
+        h5{
+            margin: 5px 20px 10px;
+            font-size: 2rem;
+        }
+        
+        #shadow{
+            background: linear-gradient(20deg,var(--DarkGray),rgb(111, 113, 114)) ;
+            padding: 2%;
+            a {
+                position: relative;
+                left: 20px;
+                font-size: 20px;
+               
+            }
+           
+        }
+    }
+    .content:hover {
+        opacity: 0.6;
+        
+    }
+}

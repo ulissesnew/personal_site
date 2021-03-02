@@ -45,7 +45,9 @@ const Home = () => {
                    </div>
                 </div>
                 <div className="right">
-                  
+                    <span id="right-shape"></span>
+                    <span id="orange"></span>
+
                     <Image 
                         url={photo}
                         size="l"

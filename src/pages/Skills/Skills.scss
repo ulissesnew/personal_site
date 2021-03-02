@@ -1,0 +1,97 @@
+
+%display-flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+#skills{
+    overflow-y: scroll;
+}
+.center {
+    // background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // text-align: center;
+    .bigtext {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .small {
+            position: relative;
+            left: -65px;
+        }
+        .content {
+            text-align: center;
+        }
+    }
+}
+.skills {
+//    margin-top: 20px;
+   
+    .container {
+        margin: 1% 10% 1%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .list {
+            display: grid;
+            grid-template-rows: 1fr ;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 2%;
+            h2 {
+                margin-bottom: 10px;
+                padding: 5px;
+            }
+            ul {
+                li {
+                    line-height: 1.5;
+                    list-style-type: "- ";
+                }
+            }
+            #label-column{
+                font-weight: bold;
+                font-size: 1.2rem;
+                height: 50px;
+               span {
+                text-decoration: underline;
+                text-decoration-color:var(--Orange);
+               }
+            }
+            
+        }
+    }
+
+
+    @media(max-width:700px){
+       
+        .center {
+            font-size:1rem;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .container {
+            .list {
+                grid-template-columns: 1fr 1fr ;
+                text-align: left;
+
+                #column {
+                    font-size: 15px;
+                    #label-column{
+                        font-size: 1rem;
+                        line-height: 1;
+                        padding-bottom: 10px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+      
+    }
+    
+}

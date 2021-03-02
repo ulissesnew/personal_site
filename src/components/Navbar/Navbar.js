@@ -13,10 +13,10 @@ class Navbar extends React.Component {
             isOpen: false,
             width: 0
         }
-        window.addEventListener("resize", this.update)
     }
     componentDidMount(){
-        this.update()
+        window.addEventListener("resize", this.update)
+
         // console.log(window.innerWidth);
     }
    update = () => {
@@ -37,7 +37,7 @@ class Navbar extends React.Component {
         return (
             <div className="nav" id="nav"> 
                 <h2>John Doe <small>.</small></h2>
-                
+                <span id="circle-yellow"></span>
                 <nav  className="navbar">
                     <Link url="#home" text="Home"/>
                     <Link url="#about" text="About me"/>
@@ -61,7 +61,7 @@ class Navbar extends React.Component {
                 {this.state.width < 700 
                 ? <ModalNavbar isOpen={isOpen}/>
                 : null}
-                <span id="width-screen">width: {this.state.width}</span>
+                {/* <span id="width-screen">width: {this.state.width}</span> */}
 
             </div>
         )

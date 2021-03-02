@@ -1,0 +1,123 @@
+
+.testimonials {
+    // background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    // padding: 10%;
+    margin: 0 10% auto;
+    #shape-yellow{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        z-index: -1;
+        background-color: yellow;
+        padding: 2%;
+        left: 0;
+    }
+    .carousel {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .bigtext {
+            .small {
+                width:100%;
+                
+            }
+        }
+        // width: 60%;
+        #controls {
+           position: relative;
+           left: 70%;
+           #arrow-right{
+            background-color: var(--Orange);
+                span {
+                    color: var(--White);
+                    font-size: 1.5rem;
+                }
+            }
+            
+            #arrow-left{
+                background-color: var(--White);
+                span {
+                    color: var(--Orange);
+                    font-size: 1.5rem;
+                }
+            }
+            button {
+                padding: 5px;
+                margin: 0 10px auto;
+                border-radius: 50%;
+                color: var(--White);
+                border: 1px solid var(--Orange);
+                                
+            }
+            button:hover{
+                opacity: 0.7;
+                cursor: pointer;
+            }
+            button:active {
+                border: 1px solid var(--Orange);
+                padding: 0;
+            }
+            button:focus{
+                border: none;
+            }
+            
+        }
+    }
+    #item {
+        // background-color: gray;
+        width: 90%;
+        max-width: 800px;
+    }
+    #content {
+        margin: 20px 5px 20px;
+        line-height: 2;
+    }
+    #person {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        #description {
+            margin: 10px;
+            // background-color: pink;
+        }
+    }
+}
+
+@media(max-width:700px){
+    .testimonials{
+        #shape-yellow{
+            height: 100%;
+        }
+        align-items: center;
+        .carousel {
+            align-items: center;
+            flex-direction: column;
+            .bigtext{
+                .title{
+                    font-size: 2rem;
+                    
+                }
+            }
+            
+            #controls {
+                position: relative;
+                left: 0;
+                
+            }
+        }
+    }
+   
+}
