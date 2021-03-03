@@ -1,11 +1,13 @@
 #portfolio {
-    overflow-y: scroll;
+    height: 100%;
+    // margin-top: 50px;
+    // margin-bottom: 50px;
 }
 .portfolio {
     width: 70%;
     margin: auto;
-   
-    .top {
+    max-width: 1000px;
+     .top {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: flex-end;
@@ -24,7 +26,9 @@
     }
 }
 @media(max-width:500px){
+    
 .portfolio {
+    
     .top{
         display: flex;
         flex-direction: column;

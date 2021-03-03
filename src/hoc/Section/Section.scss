@@ -3,14 +3,13 @@
     // border: 1px solid green;
     height: 80vh;
     padding-top: 10%;
+  
     
 }
 
-@media(max-width:500px){
-    .section{
-        height: 110vh;
-        // margin-bottom:  50px;
+@media(max-width:800px){
+    .section {
+        padding-bottom: 200px;
 
     }
 }
-
