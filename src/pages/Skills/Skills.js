@@ -62,6 +62,7 @@ const Skills = () => {
                                     <li>Vagrant, Composer, Drush</li>
                                     <li>Photoshop, Sketch</li>
                                     <li>Agile, Waterfall</li>
+                                    
                                 </ul>
                             </div>
                             </div>

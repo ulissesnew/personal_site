@@ -41,7 +41,9 @@
 }
 
 #experience{
-    overflow-y: scroll;
+    // margin-top: 50px;
+    // margin-bottom: 50px;
+   
 }
 .container {
     display: flex;
@@ -88,9 +90,12 @@
 }
 
 @media(max-width:700px){
-    // #experience {
-    //     margin-top: 250px;
-    // }
+    #experience {
+        // display: none;
+        overflow-y: scroll;
+        height: 800px;
+
+    }
     .container {
         #line {
             left: 90%;
@@ -110,6 +115,8 @@
         }
         .timeline {
             grid-template-columns: 1fr;
+            // column-gap: 0;
+
             .item {
                 padding: 5px;
                 #shape-right{
