@@ -4,8 +4,7 @@ import BigText from "../../components/BigText/BigText";
 import  Button from "../../components/Button/Button"
 import ShadowText from "../../components/ShadowText/ShadowText";
 import CardList from "../../components/CardList/CardList";
-import data from "../../components/CardList/data";
-// import logList from "./BlogList/BlogList";
+import data from "./dataBlog";
 
 const Blog = () => {
     return (

@@ -34,7 +34,7 @@
             position: relative;
             width: 80%;
             height: 80%;
-            left: -30%;
+            // left: -30%;
             // background-color: blue;
         }
     }
@@ -48,7 +48,10 @@
         .left {
             position: relative;
             width: 50%;
-           
+            img {
+                margin-left: 100px;
+
+            }
             #circle {
                 left: 53%;
             }

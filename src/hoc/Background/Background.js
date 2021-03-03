@@ -4,6 +4,7 @@ import "./Background.scss";
 const Background = ({children}) => {
     return (
         <div id="background">
+            
             {children}
         </div>
     )

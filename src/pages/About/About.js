@@ -3,9 +3,8 @@ import Section from "../../hoc/Section/Section";
 import "./About.scss";
 import BigText from "../../components/BigText/BigText";
 import  Button from "../../components/Button/Button"
-import photo from "../../assets/my.png"
+import photo from "../../assets/about.png"
 import Image from "../../components/Image/Image";
-import Background from "../../hoc/Background/Background";
 import ShadowText from "../../components/ShadowText/ShadowText";
 
 const About = () => {
