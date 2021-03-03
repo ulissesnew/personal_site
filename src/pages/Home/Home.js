@@ -4,13 +4,13 @@ import Section from "../../hoc/Section/Section";
 import Button from "../../components/Button/Button";
 import photo from "../../assets/my.png"
 import Image from "../../components/Image/Image";
-import Background from "../../hoc/Background/Background";
+import BackgroundHome from "./Background/BackgroundHome";
 import ShadowText from "../../components/ShadowText/ShadowText";
 
 const Home = () => {
     return (
         <Section id="home">
-         <Background>
+         <BackgroundHome>
              <ShadowText 
                 arr={ ["DESI", "GN", "ER"]}
                 top="20%"
@@ -57,7 +57,7 @@ const Home = () => {
 
                 </div>
             </div>
-            </Background>
+            </BackgroundHome>
         </Section>
     )
 }

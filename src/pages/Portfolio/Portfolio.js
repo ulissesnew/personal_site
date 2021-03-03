@@ -4,7 +4,7 @@ import Section from "../../hoc/Section/Section";
 import BigText from "../../components/BigText/BigText";
 import ShadowText from "../../components/ShadowText/ShadowText";
 import CardList from "../../components/CardList/CardList";
-import data from "../../components/CardList/data";
+import data from "./dataPortfolio";
 
 const Portfolio = () => {
     return (
