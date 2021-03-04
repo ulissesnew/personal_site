@@ -10,13 +10,16 @@ import ShadowText from "../../components/ShadowText/ShadowText";
 const Home = () => {
     return (
         <Section id="home">
-         <BackgroundHome>
+         {/* <BackgroundHome> */}
              <ShadowText 
                 arr={ ["DESI", "GN", "ER"]}
                 top="20%"
                 left="3%"
             />
+         <BackgroundHome/>
+
             <div className="home">
+
                 <div className="left">
                     <div className="hello">
                         <h1>Hello </h1> <h1 id="character">.</h1>
@@ -45,8 +48,10 @@ const Home = () => {
                    </div>
                 </div>
                 <div className="right">
-                    <span id="right-shape"></span>
-                    <span id="orange"></span>
+                    <span id="right-shape">
+                        <span id="orange"></span>
+                        
+                    </span>
 
                     <Image 
                         url={photo}
@@ -57,7 +62,7 @@ const Home = () => {
 
                 </div>
             </div>
-            </BackgroundHome>
+            {/* </BackgroundHome> */}
         </Section>
     )
 }
