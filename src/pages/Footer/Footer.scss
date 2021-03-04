@@ -1,11 +1,18 @@
 
-
+#contact {
+    padding-top: 0;
+    background-color: var(--VeryDark);
+    max-height: 500px;
+}
 .footer {
     background-color: var(--VeryDark);
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    margin:  auto;
+    img {
+        background-color: var(--White);
+    }
     .bigtext {
         align-items: center;
         color: var(--White);
@@ -14,26 +21,36 @@
             width: 80px;
         }
     }
-    a{
-        margin: 2%;
-    }
+   
     #content {
         color: var(--White);
-        margin: 2% 1% 2%;
+        margin: 2% 35% 30px;
         line-height: 2;
         text-align: center;
-        max-width: 700px;
     }
     .icons-container{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 1% auto 1%;
+        margin: 25px 1% 1%;
+        a{
+            margin: 2% 5% 2%;
+        }
     }
 }
 
 @media(max-width:700px){
+    #contact {
+        display: block;
+        height: 100%;
+    }
     .footer {
+        max-width: 300px;
+
+        #content{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
         #img{
             width: 0;
         }
