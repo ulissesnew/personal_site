@@ -1,0 +1,20 @@
+
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0;
+
+    // background-color: orange;
+}
+
+.timeline-container::after{
+    background-color: var(--VeryLightGray);
+    content: "";
+    position: absolute;
+    // left: calc(50% -2px);
+    width: 4px;
+    height: 100%;
+    right: calc(50% - 2px);
+}
