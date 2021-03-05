@@ -7,16 +7,14 @@
 
 }
 #skills{
-    overflow-y: scroll;
-    // margin-top: 50px;
-    // margin-bottom: 50px;
+    // overflow-y: scroll;
+  
 }
 .center {
     // background-color: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    // text-align: center;
     .bigtext {
         display: flex;
         align-items: center;
@@ -32,10 +30,8 @@
     }
 }
 .skills {
-//    margin-top: 20px;
-
     .container {
-        margin: 1% 10% 1%;
+        margin: 2% 10% 1%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -45,7 +41,7 @@
             display: grid;
             grid-template-rows: 1fr ;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 2%;
+            gap: 2.5%;
             h2 {
                 margin-bottom: 10px;
                 padding: 5px;
@@ -53,16 +49,18 @@
             ul {
                 li {
                     line-height: 1.5;
-                    list-style-type: "- ";
+                    list-style-type: "-  ";
                 }
             }
             #label-column{
                 font-weight: bold;
                 font-size: 1.2rem;
                 height: 50px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                list-style: none;
                span {
-                text-decoration: underline;
-                text-decoration-color:var(--Orange);
+                text-decoration: solid underline 3px var(--Orange);
                }
             }
             

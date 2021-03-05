@@ -1,40 +1,32 @@
 %half_circle_bottom {
-    height: 45px;
-    width: 90px;
-    border-top-right-radius: 90px;
-    border-top-left-radius: 90px;
+    height: 5vw;
+    width: 5vw;
+    border-top-right-radius: 12vw;
+    border-top-left-radius: 12vw;
     background: var(--StrongBlue);
     transform: rotate(180deg);
-    position: absolute;
     z-index: -1;
   }
 
 #background {
     z-index: -1;
-    position: absolute;
-    left: 0;
-    right: 0;
+    position: relative;
+
     .m-orange-circle-skills{
-        position: absolute;
+      position: relative;
         @extend %half_circle_bottom;
         background-color: var(--BrightOrange);
-        left: 0;
-        // right: -1.6%;
-        top: 1%;
-        width: 50px;
-        height: 50px;
         border-radius: 50%;
-        // transform: rotate(90deg);
+        top: 10%;
+        width: 2vw;
+        height: 2vw
       }
     .d-yellow-circle-skills{
-        position: absolute;
         @extend %half_circle_bottom;
+        position:absolute;
         background-color: var(--BrightYellow);
-        left: 0%;
-        // right: -1.6%;
-        top: 17%;
-        width: 90px;
-        height: 90px;
+        left: 0;
+        top: 15%;
         transform: rotate(90deg);
       }
       .orange-pizza-skills{
@@ -42,109 +34,91 @@
         @extend %half_circle_bottom;
         background-color: var(--BrightOrange);
         left: 0;
-        // right: -1.6%;
-        top: 43%;
-        width: 85px;
-        height: 90px;
-        // transform: rotate(-90deg);
-        border-top-left-radius: 5px;
-        border-top-left-radius: 0px;
+        top: 25%;
+        width: 3.5vw;
+        height: 3.5vw;
+        border-top-left-radius: 0;
+        border-top-left-radius: 0;
       }
       .blue-circle-right{
         position: absolute;
         @extend %half_circle_bottom;
         background-color: var(--StrongBlue);
         left: -2%;
-        // right: -1.6%;
-        top: 70%;
-        width: 150px;
-        height: 90px;
+        top: 35%;
+        width: 7vw;
+        height: 3.5vw;
         transform: rotate(90deg);
-            
-        
       }
-      .d-silver-circle-right{
-        position: absolute;
-        @extend %half_circle_bottom;
-        background-color: var(--VeryLightGray);
-        // left: -2%;
-        right: 1.9%;
-        bottom: 0;
-        // top: 10%;
-        width: 100px;
-        height: 130px;
-        transform: rotate(90deg);
-        border-radius: 50%;
-        border-top-right-radius: 0px;
-        border-top-left-radius: 0;
-            
-        
-      }
+
+
+
+
       .banana-skills{
         position: absolute;
         @extend %half_circle_bottom;
         background-color: var(--BrightYellow);
-        // left: -2%;
-        right: 9%;
-        top: 200px;
-       
-        width: 50px;
-        height: 50px;
+        right: 6%;
+        top: 28%;
+        width: 2vw;
+        height: 2vw;
         transform: rotate(90deg);
         border-radius: 50%;
-      
-            
-        
       }
+
+      .d-silver-circle-right{
+        position: absolute;
+        @extend %half_circle_bottom;
+        background-color: var(--VeryLightGray);
+        right: 0;
+        top: 28%;
+        transform: rotate(90deg);
+        border-radius: 50%;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+      }
+      
       .silver-circle-right{
         position: absolute;
         @extend %half_circle_bottom;
         background-color: var(--StrongBlue);
-        // left: -20%;
-        top: 110%;
-        right: 0;
-        // left: 90%;
-        width: 150px;
-        height: 120px;
-        transform: rotate(-89deg);
-        z-index: -1;
-        
+        top: 50%;
+        right: 1%;
+        width: 3vw;
+        height: 3vw;
+        border-radius: 50%;
       }
-      .m-blue-circle-skills{
+      .d-orange-circle-skills{
         position: absolute;
         @extend %half_circle_bottom;
-        background-color: var(--StrongBlue);
-        border-radius: 50%;
-        // left: -20%;
-        top: 145%;
-        right: 0;
-        width: 80px;
-        height: 80px;
-        transform: rotate(-89deg);
-        z-index: -1;
+        background-color: var(--BrightOrange);
+        top: 41%;
+        right: -1%;
+        width: 6vw;
+        height: 3vw;
+        transform: rotate(-90deg);
+        // border-top-left-radius: 0vw;
+        // border-bottom-left-radius: 0vw;
       }
       .orange-pizza-skills2{
         position: absolute;
         @extend %half_circle_bottom;
         background-color: var(--BrightOrange);
-        // left: 0;
-        right: 8%;
-        top: 133%;
-        width: 85px;
-        height: 90px;
-        // transform: rotate(-90deg);
-        border-top-left-radius: 5px;
-        border-top-left-radius: 0px;
+        right: 5%;
+        top: 48%;
+        width: 3vw;
+        height: 3vw;
+        border-top-left-radius: 1vw;
+        border-top-left-radius: 0;
       }
       .yellow-banana-skills{
         position: absolute;
         @extend %half_circle_bottom;
         background-color: var(--BrightYellow);
-        // left: 87%;
-        right: 6%;
-        top: 101%;
-        width: 150px;
-        height: 70px;
+        right: 3%;
+        top: 37%;
+        width: 7vw;
+        height: 3vw;
         transform: rotate(90deg);
       }
 

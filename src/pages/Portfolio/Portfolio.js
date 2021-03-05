@@ -5,6 +5,7 @@ import BigText from "../../components/BigText/BigText";
 import ShadowText from "../../components/ShadowText/ShadowText";
 import CardList from "../../components/CardList/CardList";
 import data from "./dataPortfolio";
+import Button from "../../components/Button/Button"
 
 const Portfolio = () => {
     return (
@@ -31,7 +32,13 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <CardList items={data}/>
-                <button>Discover all Works</button>
+                <Button color="White"
+                 text="Discover all Works"
+                 bgColor="Orange"
+                 size="large"
+                 arrow={true}
+                 url=""
+                 />
             </div>
         </Section>
     )

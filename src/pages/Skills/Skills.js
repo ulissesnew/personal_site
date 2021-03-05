@@ -3,12 +3,16 @@ import "./Skills.scss";
 import Section from "../../hoc/Section/Section";
 import BigText from "../../components/BigText/BigText";
 import BackgroundSkills from "./BackgroundSkills/BackgroundSkills";
-
+import ShadowText from "../../components/ShadowText/ShadowText"
 
 const Skills = () => {
     return (
        <Section id="skills">
                 <div className="skills">
+                    <ShadowText 
+                    arr={["SK","IL","LS"]} 
+                    left="50%"
+                    />
                     <BackgroundSkills/>
 
                     <div className="center">
