@@ -12,18 +12,20 @@ const About = () => {
         <Section id="about"> 
             <div className="about">
                 <div className="left">
-                    <div id="shape"></div>
-                    <div id="circle"></div>
-
-                    <Image 
+                    <div id="shape">
+                        <div id="circle"></div>
+                        <Image 
                         url={photo}
                         alt="my photo"
                         size="l"
                     />
+                    </div>
+
+                  
                     <ShadowText 
                         arr={["AB","OUT","ME"]}
                         top="0px"
-                        left="40%"
+                        left="90%"
                     />
 
                 </div>
