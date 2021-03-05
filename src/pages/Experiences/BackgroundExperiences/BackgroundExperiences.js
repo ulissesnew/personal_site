@@ -1,10 +1,10 @@
 import React from 'react'
 import "./BackgroundExperiences.scss";
 
-const BackgroundHome = ({children}) => {
+const BackgroundHome = () => {
     return (
         <div id="background">
-              <div className="orange-circle-experience"></div>
+
               <div className="blue-circle-top-experience"></div>
               <div className="blue-circle-experience"></div>
               <div className="min-yellow-circle-experience"></div>
@@ -27,7 +27,8 @@ const BackgroundHome = ({children}) => {
               
               <div className="mid-yellow-circle-experience"></div>
               <div className="pizza-orange-experience2"></div>
-            {children}
+              <div className="last-cicle-experience"></div>
+
         </div>
     )
 }

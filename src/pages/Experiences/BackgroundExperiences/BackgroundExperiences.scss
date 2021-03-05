@@ -1,8 +1,8 @@
 %half_circle_bottom {
-    height: 45px;
-    width: 90px;
-    border-top-right-radius: 90px;
-    border-top-left-radius: 90px;
+    height: 5vw;
+    width: 2.5vw;
+    border-top-right-radius: 6vw;
+    border-top-left-radius: 6vw;
     background: var(--StrongBlue);
     transform: rotate(180deg);
     position: absolute;
@@ -14,28 +14,14 @@
     position: absolute;
     left: 0;
     right: 0;   
-    .orange-circle-experience{
-        @extend %half_circle_bottom;
-        right: 0%;
-        top: 30%;
-        width: 150px;
-        height: 75px;
-        border-top-right-radius: 90px;
-        border-top-left-radius: 90px;
-        position: absolute;
-        transform: rotate(-90deg);
-
-    }
+    
     .blue-circle-top-experience{
        @extend %half_circle_bottom;
         right: 1%;
-        top: 48%;
-        width: 160px;
-        height: 80px;
-        border-top-right-radius: 80px;
-        border-top-left-radius: 80px;
-        position: absolute;
-        background-color: var(--BrightYellow);
+        top: 16%;
+        width: 7vw;
+        height: 4vw;
+        background-color: var(--StrongBlue);
         transform: rotate(0deg);
 
     }
@@ -44,77 +30,58 @@
       @extend %half_circle_bottom;
       background-color: var(--StrongBlue);
       right: 10%;
-      top: 50%;
-      width: 90px;
-      height: 90px;
+      top: 20%;
+      width: 4vw;
+      height: 4vw;
       border-radius: 50%;
-      // transform: rotate(-90deg);
     }
     .min-yellow-circle-experience{
       position: absolute;
       @extend %half_circle_bottom;
-      // background-color: orange;
       background-color: var(--BrightYellow);
       border-radius: 50%;
       right: 6%;
-      top: 63%;
-      width: 60px;
-      height: 60px;
+      top: 25%;
+      width: 3vw;
+      height: 3vw;
     }
     .orange-circle-experience2{
       position: absolute;
       @extend %half_circle_bottom;
       background-color: var(--BrightOrange);
-
       right: 1%;
-      top: 62%;
-      width: 90px;
-      height: 90px;
+      top: 26%;
+      width: 4vw;
+      height: 4vw;
       border-radius: 50%;
     }
-    // .blue-circle-top{
-    //   // position: absolute;
-    //   background-color: var(--SlightlyBlue);
-    //   @extend %half_circle_bottom;
-    //     right: 8%;
-    //     top: 37%;
-    //     width: 80px;
-    //     height: 40px;
-    //     border-top-right-radius: 90px;
-    //     border-top-left-radius: 90px;
-    //     position: absolute;
-    //     transform: rotate(0deg);
-    // }
+  
     .silver-circle-top-experience{
       position: absolute;
       @extend %half_circle_bottom;
       background-color: var(--VeryLightGray);
-      right: 11%;
-      top: 69%;
-      width: 90px;
-      height: 90px;
+      right: 10%;
+      top: 29%;
+      width: 3vw;
+      height: 3vw;
       transform: rotate(-90deg);
     }
     .banana-yellow-circle-experience{
-      // position: absolute;
+      position: absolute;
       background-color: var(--BrightYellow);
       @extend %half_circle_bottom;
         right: 5%;
-        top: 78%;
+        top: 35%;
         width: 120px;
         height: 60px;
-        border-top-right-radius: 90px;
-        border-top-left-radius: 90px;
-        position: absolute;
         transform: rotate(-90deg);
     }
     .d-yellow-experience{
       position: absolute;
       @extend %half_circle_bottom;
       background-color: var(--BrightYellow);
-
       right: 1%;
-      top: 80%;
+      top: 34%;
       width: 90px;
       height: 99px;
       transform: rotate(90deg);
@@ -124,58 +91,39 @@
       @extend %half_circle_bottom;
       background-color: var(--BrightOrange);
       right: 9%;
-      top: 93%;
-      width: 150px;
-      height: 75px;
+      top: 43%;
+      width: 7vw;
+      height: 3.5vw;
       transform: rotate(-90deg);
     }
     .banana-silver-circle-experience{
-      // position: absolute;
       background-color: var(--VeryLightGray);
-
       @extend %half_circle_bottom;
         right: 6%;
-        top: 98%;
-        width: 100px;
-        height: 50px;
-        border-top-right-radius: 90px;
-        border-top-left-radius: 90px;
-        position: absolute;
+        top: 47%;
+        width: 5vw;
+        height: 2.5vw;
         transform: rotate(90deg);
     }
-  //   .d-yellow-circle{
-  //     @extend %half_circle_bottom;
-  //     right: 0%;
-  //     top: 2%;
-  //     width: 90px;
-  //     height: 90px;
-  //     border-top-right-radius: 90px;
-  //     border-top-left-radius: 90px;
-  //     position: absolute;
-  //     background-color: var(--BrightYellow);
-  //     transform: rotate(90deg);
-  //  }
+  
   .blue-circle-experience2{
     @extend %half_circle_bottom;
     right: 10%;
-    top: 112%;
-    width: 90px;
-    height: 90px;
-    position: absolute;
+    top: 54%;
+    width: 5vw;
+    height: 5vw;
     background-color: var(--StrongBlue);
     border-radius: 50%
 }
   .d-blue-circle-experience{
     @extend %half_circle_bottom;
     right: 2%;
-    top: 97%;
-    width: 80px;
-    height: 90px;
+    top: 45%;
+    width: 4vw;
     border-top-right-radius: 90px;
     border-top-left-radius: 90px;
     position: absolute;
     background-color: var(--StrongBlue);
-    // background-color: rgb(13, 56, 148);
     transform: rotate(-90deg);
   }
   .yellow-circle-experience2{
@@ -183,23 +131,19 @@
     @extend %half_circle_bottom;
     background-color: var(--BrightYellow);
     right: 6%;
-    top: 110%;
-    width: 60px;
-    height: 60px;
+    top: 55%;
+    width: 3vw;
+    height: 3vw;
     border-radius: 50%;
   }
 
   .d-orange-experience2{
-    // position: absolute;
     background-color: var(--BrightOrange);
     @extend %half_circle_bottom;
       right: 0%;
-      top: 118%;
-      width: 150px;
-      height: 80px;
-      border-top-right-radius: 90px;
-      border-top-left-radius: 90px;
-      position: absolute;
+      top: 5%;
+      width: 7vw;
+      height: 4vw;
       transform: rotate(-90deg);
   }
   .m-orange-circle-experience{
@@ -207,63 +151,57 @@
     @extend %half_circle_bottom;
     background-color: var(--BrightOrange);
     right:11%;
-    top: 128%;
-    width: 50px;
-    height: 50px;
+    top: 65%;
+    width: 3vw;
+    height: 3vw;
     border-radius: 50%;
   }
   .silver-circle-experience{
-    position: absolute;
     @extend %half_circle_bottom;
     background-color: var(--VeryLightGray);
     right:5.5%;
-    top: 129%;
-    width: 90px;
-    height: 90px;
+    top: 68%;
+    width: 4vw;
+    height: 4vw;
     border-radius: 50%;
   }
   .pizza-orange-experience{
-    // position: absolute;
     background-color: var(--BrightOrange);
-
     @extend %half_circle_bottom;
       right: 7%;
-      top: 120%;
-      width: 50px;
-      height: 50px;
-      border-top-right-radius: 5px;
-      border-top-left-radius: 90px;
-      position: absolute;
-      // transform: rotate(90deg);
+      top: 62%;
+      width: 3vw;
+      height: 3vw;
+      border-top-right-radius: 0vw;
   }
   .mid-silver-circle-experience{
     position: absolute;
     @extend %half_circle_bottom;
     background-color: var(--BrightYellow);
-    left: 0;
-    top: 118%;
-    width: 140px;
-    height: 80px;
+    left: -1%;
+    top: 45%;
+    width: 6vw;
+    height: 3vw;
     transform: rotate(90deg);
   }
   .mid-blue-circle-experience{
     position: absolute;
     @extend %half_circle_bottom;
     background-color: var(--StrongBlue);
-    left: 2%;
-    top: 99%;
-    width: 70px;
-    height: 70px;
+    left: 0;
+    top: 34%;
+    width: 4vw;
+    height: 4vw;
     border-radius: 50%;
   }
   .mid-yellow-circle-experience{
     position: absolute;
     @extend %half_circle_bottom;
     background-color: var(--SlightlyBlue);
-    left: 0;
-    top: 78%;
-    width: 140px;
-    height: 80px;
+    left: -1%;
+    top: 24%;
+    width: 6vw;
+    height: 3vw;
     transform: rotate(90deg);
   }
   .pizza-orange-experience2{
@@ -275,10 +213,19 @@
       border-top-left-radius: 90px;
       position: absolute;
       position: absolute;
-      left: 1.5%;
-      top: 138%;
-    
+      left:0;
+      top: 56%;
   }
+  .last-cicle-experience{
+    @extend %half_circle_bottom;
+    right: 0;
+    top: 60%;
+    width: 7vw;
+    height: 4vw;
+    background-color: var(--BrightOrange);
+    transform: rotate(-90deg);
+  }
+  
 }
 
 @media(max-width:700px){
