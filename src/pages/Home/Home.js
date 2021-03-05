@@ -10,8 +10,6 @@ import ShadowText from "../../components/ShadowText/ShadowText";
 const Home = () => {
     return (
         <Section id="home">
-
-         {/* <BackgroundHome> */}
              <ShadowText 
                 arr={ ["DESI", "GN", "ER"]}
                 top="20%"
