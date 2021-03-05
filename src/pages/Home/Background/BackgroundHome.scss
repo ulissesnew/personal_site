@@ -1,245 +1,195 @@
 %half_circle_bottom {
-    height: 45px;
-    width: 90px;
-    border-top-right-radius: 90px;
-    border-top-left-radius: 90px;
+  width: 8vw;
+  height: 4vw;
+  border-top-right-radius:6vw;
+  border-top-left-radius: 6vw;
     background: var(--StrongBlue);
     transform: rotate(180deg);
     position: absolute;
     z-index: -1;
   }
-
+  $width: 140px;
 #background {
+  display: flex;
+  // background-color: pink;
+    margin-top: -148px;
     z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 65%;
-    left: 0;
-    right: 0;   
+    position: relative;
+    height: 100%;
     .blue-circle{
         @extend %half_circle_bottom;
-        right: 18%;
-        top: -52%;
-        width: 180px;
-        height: 90px;
-        border-top-right-radius: 90px;
-        border-top-left-radius: 90px;
-        position: absolute;
+        right: 17%;
     }
     .yellow-circle{
        @extend %half_circle_bottom;
-        right: 4%;
-        top: -52%;
-        width: 160px;
-        height: 80px;
-        border-top-right-radius: 80px;
-        border-top-left-radius: 80px;
-        position: absolute;
+        right: 5%;
         background-color: var(--BrightYellow);
     }
     .orange-circle{
-      position: absolute;
       @extend %half_circle_bottom;
       background-color: var(--BrightOrange);
-      right: 0;
-      top: -40%;
-      width: 150px;
-      height: 90px;
+      right: -2%;
+      top: 40px;
       transform: rotate(-90deg);
     }
     .min-orange-circle2{
-      position: absolute;
       @extend %half_circle_bottom;
-      // background-color: orange;
       background-color: var(--BrightOrange);
-
-      right: 14%;
-      top: -52%;
-      width: 50px;
-      height: 60px;
+      right: 14.5%;
+      width: 30px;
+      height: 40px;
+      width: 2vw;
+      height: 3vw;
     }
     .min-orange-circle{
-      position: absolute;
       @extend %half_circle_bottom;
       background-color: var(--BrightOrange);
-
       right: 12%;
-      top: -42%;
-      width: 50px;
-      height: 50px;
+      top: 7%;
+      width: 3vw;
+      height: 3vw;
       border-radius: 50%;
     }
     .blue-circle-top{
-      // position: absolute;
       background-color: var(--SlightlyBlue);
       @extend %half_circle_bottom;
-        right: 8%;
-        top: -37%;
-        width: 80px;
-        height: 40px;
-        border-top-right-radius: 90px;
-        border-top-left-radius: 90px;
-        position: absolute;
-        transform: rotate(0deg);
+      right: 6%;
+      top:10%;
+      width: 5vw;
+      height: 2.5vw;
+      border-top-right-radius: 7vw;
+      border-top-left-radius: 7vw;
+      transform: rotate(0deg);
     }
     .silver-circle{
-      position: absolute;
       @extend %half_circle_bottom;
       background-color: var(--VeryLightGray);
-      right: 9%;
-      top: -29%;
-      width: 50px;
-      height: 50px;
+      right: 8%;
+      top: 16%;
+      width: 3vw;
+      height: 3vw;
       border-radius: 50%;
     }
     .blue-circle-top3{
-      // position: absolute;
       background-color: var(--SlightlyBlue);
       @extend %half_circle_bottom;
-        right: 4%;
-        top: -24%;
-        width: 120px;
-        height: 60px;
-        border-top-right-radius: 90px;
-        border-top-left-radius: 90px;
-        position: absolute;
+        right: 0%;
+        top: 17%;
+        width: 7vw;
+        height: 4vw;
+        border-top-right-radius: 7vw;
+        border-top-left-radius: 7vw;
         transform: rotate(0deg);
     }
     .mid-orange-circle{
-      position: absolute;
       @extend %half_circle_bottom;
       background-color: var(--BrightOrange);
-
       right: 0%;
-      top: -12%;
-      width: 80px;
-      height: 80px;
+      top: 25%;
+      width: 4vw;
+      height: 4vw;
       border-radius: 50%;
     }
     .banana{
-      // position: absolute;
       background-color: var(--BrightYellow);
       @extend %half_circle_bottom;
         right: 4%;
-        top: -8%;
-        width: 100px;
-        height: 49px;
-        border-top-right-radius: 90px;
-        border-top-left-radius: 90px;
-        position: absolute;
+        top: 29%;
+        width: 6vw;
+        height: 3vw;
         transform: rotate(-90deg);
     }
     .d-yellow-circle{
       @extend %half_circle_bottom;
       right: 0%;
-      top: 2%;
-      width: 90px;
-      height: 90px;
-      border-top-right-radius: 90px;
-      border-top-left-radius: 90px;
-      position: absolute;
+      top: 33%;
+      width: 4vw;
+      height: 4vw;
       background-color: var(--BrightYellow);
       transform: rotate(90deg);
    }
   .d-dark-circle{
     @extend %half_circle_bottom;
     right: 5%;
-    top: 7%;
-    width: 55px;
-    height: 50px;
-    border-top-right-radius: 90px;
-    border-top-left-radius: 90px;
-    position: absolute;
+    top: 40%;
+    width: 3vw;
+    height: 3vw;
     background-color: var(--VeryDark);
-
     transform: rotate(-90deg);
 }
   .d-blue-circle{
     @extend %half_circle_bottom;
     right: 0%;
-    top: 18%;
-    width: 90px;
-    height: 90px;
-    border-top-right-radius: 90px;
-    border-top-left-radius: 90px;
-    position: absolute;
+    top: 43%;
+    width: 3.5vw;
+    height: 3.5vw;
     background-color: var(--StrongBlue);
-    // background-color: rgb(13, 56, 148);
     transform: rotate(-90deg);
   }
-  .d-orange-circle{
-    position: absolute;
-    @extend %half_circle_bottom;
-    background-color: var(--BrightOrange);
-
-    right: -1.6%;
-    top: 40%;
-    width: 150px;
-    height: 90px;
-    transform: rotate(-90deg);
-  }
+ 
   .banana-silver{
-    // position: absolute;
     background-color: var(--VeryLightGray);
-
     @extend %half_circle_bottom;
-      right: 4%;
-      top: 23%;
-      width: 100px;
-      height: 49px;
-      border-top-right-radius: 90px;
-      border-top-left-radius: 90px;
-      position: absolute;
+      right: 3%;
+      top: 50%;
+      width:5vw;
+      height: 2.5vw;
       transform: rotate(90deg);
   }
   .m-yellow-circle{
-    position: absolute;
     @extend %half_circle_bottom;
     background-color: var(--BrightOrange);
-
     right:5.5%;
-    top: 38%;
-    width: 50px;
-    height: 50px;
+    top: 78%;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50%;
   }
+  .d-orange-circle{
+    @extend %half_circle_bottom;
+    background-color: var(--BrightOrange);
+    right: -2%;
+    top: 54%;
+    width: 8vw;
+    height: 4vw;
+    transform: rotate(-90deg);
+  }
   .m-silver-circle{
-    position: absolute;
     @extend %half_circle_bottom;
     background-color: var(--VeryLightGray);
-    right:4%;
-    top: 56%;
-    width: 50px;
-    height: 50px;
+    right:2%;
+    top: 71%;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50%;
   }
   .pizza-orange{
-    // position: absolute;
     background-color: var(--BrightOrange);
-
     @extend %half_circle_bottom;
-      right: 5.4%;
-      top: 47%;
-      width: 50px;
-      height: 50px;
-      border-top-right-radius: 5px;
-      border-top-left-radius: 90px;
-      position: absolute;
-      // transform: rotate(90deg);
+      right: 4%;
+      top: 68%;
+      width: 2vw;
+      height: 2vw;
+      border-top-right-radius: 0.3vw;
+      border-top-left-radius: 4vw;
   }
   .m-orange-circle{
-    position: absolute;
     @extend %half_circle_bottom;
-    background-color: var(--BrightOrange);
-
-    right:7%;
-    top: 57%;
-    width: 50px;
-    height: 50px;
+    background-color: var(--BrightYellow);
+    right:5%;
+    top: 60%;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50%;
   }
 }
 
+@media(max-width:1500px) and (min-width:701px){
+  #background {
+  
+  }
+ 
+}
 @media(max-width:700px){
   #background{
     .blue-circle,
@@ -269,30 +219,30 @@
 }
 
 
-@media(min-width:701px) and (max-width:1200px){
-  #background{
-    .blue-circle,
-    // .yellow-circle,
-     .orange-circle, 
-    .min-orange-circle,
-    .min-orange-circle2,
-    .blue-circle-top,
-    // .silver-circle,
-    .blue-circle-top3,
-    // .mid-orange-circle,
-    .banana,
-    .d-yellow-circle,
-    .d-dark-circle,
-    // .d-blue-circle,
-    .d-orange-circle,
-    .banana-silver,
-    // .m-yellow-circle,
-    .m-silver-circle,
-    .pizza-orange,
-    .m-orange-circle
-    {
-      display: none;
+// @media(min-width:701px) and (max-width:1200px){
+//   #background{
+//     .blue-circle,
+//     // .yellow-circle,
+//      .orange-circle, 
+//     .min-orange-circle,
+//     .min-orange-circle2,
+//     .blue-circle-top,
+//     // .silver-circle,
+//     .blue-circle-top3,
+//     // .mid-orange-circle,
+//     .banana,
+//     .d-yellow-circle,
+//     .d-dark-circle,
+//     // .d-blue-circle,
+//     .d-orange-circle,
+//     .banana-silver,
+//     // .m-yellow-circle,
+//     .m-silver-circle,
+//     .pizza-orange,
+//     .m-orange-circle
+//     {
+//       display: none;
    
-    }
-  }
-}
+//     }
+//   }
+// }

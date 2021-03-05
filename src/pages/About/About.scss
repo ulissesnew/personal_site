@@ -1,15 +1,15 @@
 
 #about{
     // margin-top: 50px;
-    // margin-bottom: 50px;
+    
 }
 .about {
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
     .left {
+
         #shape {
             justify-content: flex-start;
             background-color: var(--Orange);
@@ -43,7 +43,14 @@
         }
     }
     .right {
-        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+     
+        a {
+            align-self: flex-start;
+        line-height: 3;
+
+        }
     }
 
 }

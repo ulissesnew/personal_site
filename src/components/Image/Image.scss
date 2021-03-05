@@ -1,7 +1,9 @@
 
 
 #image {
-  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .small {
@@ -13,8 +15,8 @@
     height: 300px;
 }
 .large {
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     position: relative;
 }
 .radius {

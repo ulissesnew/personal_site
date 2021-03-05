@@ -10,20 +10,22 @@ import ShadowText from "../../components/ShadowText/ShadowText";
 const Home = () => {
     return (
         <Section id="home">
+
          {/* <BackgroundHome> */}
              <ShadowText 
                 arr={ ["DESI", "GN", "ER"]}
                 top="20%"
                 left="3%"
             />
-         <BackgroundHome/>
 
             <div className="home">
+            <BackgroundHome/>
 
                 <div className="left">
                     <div className="hello">
                         <h1>Hello </h1> <h1 id="character">.</h1>
                     </div>
+                    
                     <div className="job">
                         <h1>I am </h1> 
                         <p >I am a Graphic Designer and UI Designer.</p>
@@ -61,6 +63,7 @@ const Home = () => {
                     />
 
                 </div>
+                
             </div>
             {/* </BackgroundHome> */}
         </Section>

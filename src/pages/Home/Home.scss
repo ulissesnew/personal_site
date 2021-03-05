@@ -1,9 +1,8 @@
 #home {
-    // margin-bottom: 5%;
-    // display: flex;
-    // justify-content: flex-start;
+    margin-bottom: -10%;
 }
 .home {
+  
     margin-top: -8%;
     display: flex;   
     justify-content: space-around;
@@ -54,20 +53,21 @@
         #orange{
             z-index: -1; 
             position: absolute;
-            width: 100px; 
-            height: 100px;  
-            top: 70%;
+            width: 4vw; 
+            height: 4vw;  
+            top: 72%;
             border-radius: 50%;
             background-color: var(--Orange);
         }
         #right-shape{
             background-color:var(--BrightYellow);
-            border-top-left-radius: 50%;
-            border-bottom-left-radius: 50%;
+            border-top-left-radius: 15vw;
+            border-bottom-left-radius: 15vw;
             z-index: -1; 
             position: absolute;
-            width: 600px; 
-            height: 62%;
+            width: 30vw; 
+            height: 31.5vw;
+            // max-height: 30vw;
         }
        
     }
@@ -77,8 +77,8 @@
     .home{
         .right{
             #image {
-                width: 90%;
-                height: 90%;
+                width: 80%;
+                height: 80%;
             }
             #right-shape{
                 width: 40%;
@@ -110,20 +110,20 @@
         }
     }
     .right {
-        width: 300px;
+        // width: 300px;
         margin: auto;
         #right-shape{
-            max-width: 300px; 
-            max-height: 300px;    
-
+            top: 370px;
+            min-width: 280px;
+            min-height:280px;
         }
         #orange{
-            max-width: 60px;
-            max-height: 60px;    
+            min-width: 40px;
+            min-height: 40px;    
         }
         #image {
-            height: 250px;
-            width: 250px;
+            height: 300px;
+            width: 300px;
         }
        
     }

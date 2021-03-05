@@ -8,8 +8,9 @@ import BackgroundSkills from "./BackgroundSkills/BackgroundSkills";
 const Skills = () => {
     return (
        <Section id="skills">
-            <BackgroundSkills>
                 <div className="skills">
+                    <BackgroundSkills/>
+
                     <div className="center">
                         <BigText 
                             small="My Skills"
@@ -68,7 +69,6 @@ const Skills = () => {
                             </div>
                     </div>
                 </div>
-            </BackgroundSkills>
        </Section>
     )
 }
