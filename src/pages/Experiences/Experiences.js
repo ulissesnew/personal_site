@@ -8,8 +8,9 @@ import BackgroundExperiences from "./BackgroundExperiences/BackgroundExperiences
 const Experiences = () => {
     return (
         <Section id="experience">
-            <BackgroundExperiences>
                 <div className="container"> 
+            <BackgroundExperiences/>
+
                 <ShadowText 
                     arr={["EXP", "ERIE","NCE"]}
                     left="24%"
@@ -65,7 +66,6 @@ const Experiences = () => {
 
                     </div>
                 </div>
-            </BackgroundExperiences>
         </Section>
     )
 }

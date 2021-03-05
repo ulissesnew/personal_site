@@ -7,12 +7,14 @@
     grid-template-columns: 1fr 4fr;
     #circle-yellow{
         position: absolute;
-        top: -95px;
+        top: 0px;
         left: 0;
-        width: 199px;
-        height: 190px;
+        width: 12vw;
+        height: 6vw;
+        border-top-right-radius:6vw;
+        border-top-left-radius: 6vw;
+        transform: rotate(180deg);
         background-color: var(--BrightYellow);
-        border-radius: 50%;
         z-index: -1;
     }
     h2 {

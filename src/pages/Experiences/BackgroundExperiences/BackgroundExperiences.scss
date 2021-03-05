@@ -143,18 +143,18 @@
         position: absolute;
         transform: rotate(90deg);
     }
-    .d-yellow-circle{
-      @extend %half_circle_bottom;
-      right: 0%;
-      top: 2%;
-      width: 90px;
-      height: 90px;
-      border-top-right-radius: 90px;
-      border-top-left-radius: 90px;
-      position: absolute;
-      background-color: var(--BrightYellow);
-      transform: rotate(90deg);
-   }
+  //   .d-yellow-circle{
+  //     @extend %half_circle_bottom;
+  //     right: 0%;
+  //     top: 2%;
+  //     width: 90px;
+  //     height: 90px;
+  //     border-top-right-radius: 90px;
+  //     border-top-left-radius: 90px;
+  //     position: absolute;
+  //     background-color: var(--BrightYellow);
+  //     transform: rotate(90deg);
+  //  }
   .blue-circle-experience2{
     @extend %half_circle_bottom;
     right: 10%;

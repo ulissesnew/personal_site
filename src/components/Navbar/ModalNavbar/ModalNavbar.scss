@@ -1,15 +1,27 @@
 
 
 #modal-navbar {
+    line-height: 2;
+    font-weight: bold;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 77%;
+    height: 90%;
+    box-shadow: 0 3px 5px rgb(185, 180, 180);
     a {
-        margin: 1% 1% 1%;
+        margin: 5px 5px 5px;
     }
-    animation: 1s ease-out modal;
-    transition: ease-in  0.5s all;
+    a:active {
+        color: blue;
+    }
+    animation: 0.5s ease-out modal;
+    transition: ease-in  0.3s color;
 }
 
 @keyframes modal{
