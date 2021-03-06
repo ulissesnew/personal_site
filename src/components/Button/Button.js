@@ -11,6 +11,7 @@ const Button = ({url, text, color,bgColor, arrow,size, notPadding}) => {
                padding: notPadding ? "0px" : "5px 10px"
             }
         } 
+          
             className="button" href={url}>
             <div className="content">
                 <p>
