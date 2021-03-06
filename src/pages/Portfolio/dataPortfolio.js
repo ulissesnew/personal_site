@@ -15,31 +15,35 @@ const data = [
         url: "https://github.com/ulissesnew"
     },
     {
-        category: "Web Design",
+        category: "3D Branding",
         title: "Fruits App",
         imgUrl: p2,
         url: "https://github.com/ulissesnew"
 
     }, {
-        category: "Web Design",
+        id: 1,
+        category: "Mobile",
         title: "Cup site",
         imgUrl: p3,
         url: "https://github.com/ulissesnew"
 
     }, {
-        category: "Web Design",
+        id: 2,
+        category: "Typography",
         title: "Cherry market",
         imgUrl: p4,
         url: "https://github.com/ulissesnew"
 
     }, {
+        id: 3,
         category: "Web Design",
         title: "Furniture",
         imgUrl: p5,
         url: "https://github.com/ulissesnew"
 
     }, {
-        category: "Web Design",
+        id: 4,
+        category: "Mobile",
         title: "My diet",
         imgUrl: p6,
         url: "https://github.com/ulissesnew"
