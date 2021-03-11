@@ -6,7 +6,6 @@ import  Button from "../../components/Button/Button"
 import Image from "../../components/Image/Image";
 import photo from "../../assets/my.png"
 import Icon from "./Icons/Icon/Icon";
-import IconList  from "./Icons/Icon/Icon";
 
 
 const Footer = () => {

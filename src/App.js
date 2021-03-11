@@ -1,4 +1,4 @@
-
+import React  from "react";
 import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import Home from "./pages/Home/Home";
@@ -10,14 +10,19 @@ import Blog from "./pages/Blog/Blog";
 import Footer from "./pages/Footer/Footer";
 import Testimonials from "./pages/Testimonials/Testimonials";
 
+
+
+
+
+
+
 function App() {
   return (
     <div className="App">
-          <Navbar/>
-          <Home/>
-         
-         <About/>
-         <Skills/>
+        <Navbar/>
+        <Home/>
+        <About/>
+        <Skills/>
         <Experiences/>
         <Portfolio/>
         <Testimonials/>

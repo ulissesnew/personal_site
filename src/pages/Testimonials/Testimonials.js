@@ -2,7 +2,6 @@ import React from 'react'
 import Section from "../../hoc/Section/Section";
 import "./Testimonials.scss";
 import BigText from "../../components/BigText/BigText";
-import  Button from "../../components/Button/Button"
 import ShadowText from "../../components/ShadowText/ShadowText";
 import CarouselList from "./CarouselList/CarouselList";
 import data from "../Testimonials/dataTestimonials.js";

@@ -45,19 +45,8 @@
     }
 
 }
-@media(max-width:1025px) and (min-width:700px){
+@media(max-width:1100px) and (min-width:901px){
     .about{
-        .left {
-            position: relative;
-            width: 50%;
-            img {
-                margin-left: 100px;
-
-            }
-            #circle {
-                left: 53%;
-            }
-        }
         .right {
             position: relative;
             width: 50%;
@@ -68,9 +57,26 @@
 @media (min-width:701px) and (max-width:900px){
     .about .left img {
         width: 100%;
-        left: -40%;
-        // background-color: blue;
+        height: 100%;
+       
     }
+    .about {
+        display: flex;
+        flex-direction: column;
+        .left{
+            margin: 100px  auto;
+            #text-shadow {
+                font-size: 4.5em;
+            }
+            #shape {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+   
+   
+
 }
 @media(max-width:700px){
     .about {

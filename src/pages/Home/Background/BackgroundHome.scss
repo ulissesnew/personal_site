@@ -11,7 +11,6 @@
   $width: 140px;
 #background {
   display: flex;
-  // background-color: pink;
     margin-top: -148px;
     z-index: -1;
     position: relative;
@@ -19,6 +18,8 @@
     .blue-circle{
         @extend %half_circle_bottom;
         right: 17%;
+       
+      
     }
     .yellow-circle{
        @extend %half_circle_bottom;
@@ -31,6 +32,8 @@
       right: -2%;
       top: 40px;
       transform: rotate(-90deg);
+      
+     
     }
     .min-orange-circle2{
       @extend %half_circle_bottom;
@@ -40,6 +43,8 @@
       height: 40px;
       width: 2vw;
       height: 3vw;
+      
+     
     }
     .min-orange-circle{
       @extend %half_circle_bottom;
@@ -49,6 +54,8 @@
       width: 3vw;
       height: 3vw;
       border-radius: 50%;
+      
+     
     }
     .blue-circle-top{
       background-color: var(--SlightlyBlue);
@@ -60,6 +67,8 @@
       border-top-right-radius: 7vw;
       border-top-left-radius: 7vw;
       transform: rotate(0deg);
+     
+    
     }
     .silver-circle{
       @extend %half_circle_bottom;
@@ -80,6 +89,8 @@
         border-top-right-radius: 7vw;
         border-top-left-radius: 7vw;
         transform: rotate(0deg);
+       
+      
     }
     .mid-orange-circle{
       @extend %half_circle_bottom;
@@ -89,6 +100,8 @@
       width: 4vw;
       height: 4vw;
       border-radius: 50%;
+      
+     
     }
     .banana{
       background-color: var(--BrightYellow);
@@ -125,6 +138,8 @@
     height: 3.5vw;
     background-color: var(--StrongBlue);
     transform: rotate(-90deg);
+   
+  
   }
  
   .banana-silver{
@@ -144,6 +159,8 @@
     width: 2vw;
     height: 2vw;
     border-radius: 50%;
+    
+   
   }
   .d-orange-circle{
     @extend %half_circle_bottom;
@@ -153,6 +170,8 @@
     width: 8vw;
     height: 4vw;
     transform: rotate(-90deg);
+    
+   
   }
   .m-silver-circle{
     @extend %half_circle_bottom;
@@ -172,6 +191,8 @@
       height: 2vw;
       border-top-right-radius: 0.3vw;
       border-top-left-radius: 4vw;
+      
+     
   }
   .m-orange-circle{
     @extend %half_circle_bottom;
@@ -184,12 +205,6 @@
   }
 }
 
-@media(max-width:1500px) and (min-width:701px){
-  #background {
-  
-  }
- 
-}
 @media(max-width:700px){
   #background{
     .blue-circle,
@@ -218,31 +233,3 @@
   }
 }
 
-
-// @media(min-width:701px) and (max-width:1200px){
-//   #background{
-//     .blue-circle,
-//     // .yellow-circle,
-//      .orange-circle, 
-//     .min-orange-circle,
-//     .min-orange-circle2,
-//     .blue-circle-top,
-//     // .silver-circle,
-//     .blue-circle-top3,
-//     // .mid-orange-circle,
-//     .banana,
-//     .d-yellow-circle,
-//     .d-dark-circle,
-//     // .d-blue-circle,
-//     .d-orange-circle,
-//     .banana-silver,
-//     // .m-yellow-circle,
-//     .m-silver-circle,
-//     .pizza-orange,
-//     .m-orange-circle
-//     {
-//       display: none;
-   
-//     }
-//   }
-// }

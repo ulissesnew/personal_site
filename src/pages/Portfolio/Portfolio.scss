@@ -1,7 +1,5 @@
 #portfolio {
     height: 100%;
-    // margin-top: 50px;
-    // margin-bottom: 50px;
 }
 .portfolio {
     width: 70%;
@@ -30,7 +28,7 @@
         margin: 5% auto 5%;
     }
 }
-@media(max-width:500px){
+@media(max-width:900px){
     
 .portfolio {
     
@@ -43,6 +41,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             margin: auto;
+            width: auto;
             p{
                 margin: 10px 10px 10px;
             }

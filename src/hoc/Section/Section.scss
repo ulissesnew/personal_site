@@ -1,15 +1,17 @@
 
 .section {
-    // border: 1px solid green;
     height: 80vh;
     padding-top: 10%;
-  
-    
 }
 
-@media(max-width:800px){
-    .section {
-        padding-bottom: 200px;
 
+
+
+@media(max-width:900px){
+    .section {
+        height: 100%;
+        width: 98%;
+        margin: auto;
     }
 }
+
