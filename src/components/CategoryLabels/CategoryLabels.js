@@ -3,11 +3,12 @@ import React from "react";
 
 const CategoryLabels = ({arr, state}) => {
     return(
-        arr.map((x) => {
+        arr.map((x, index) => {
             // console.log(x.toLowerCase().includes(state));
             const checkState = x.toLowerCase().includes(state);
         
             return (<p 
+                        key={index}
                         style={
                             {
                                 backgroundColor: checkState ? "var(--Orange)" : "var(--White)",
@@ -19,7 +20,7 @@ const CategoryLabels = ({arr, state}) => {
                                 color: checkState ? "var(--White)" : "var(--DarkGray)"
                             }
                         }
-                        key={arr.id}>
+                        >
                         {x}
                     </p>)
         })

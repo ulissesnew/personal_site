@@ -7,6 +7,7 @@ import p5 from "../../assets/p5.png"
 import p6 from "../../assets/p6.png"
 
 
+
 const data = [
     {
         category: "Web Design",

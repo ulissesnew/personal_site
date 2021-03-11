@@ -55,3 +55,10 @@
     transform: rotate(-40deg);
 }
  
+
+@media(max-width:900px){
+    .input-container {
+        position: relative;
+        left: 7%;
+    }
+}

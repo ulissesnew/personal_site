@@ -50,7 +50,6 @@ const Home = () => {
                 <div className="right">
                     <span id="right-shape">
                         <span id="orange"></span>
-                        
                     </span>
 
                     <Image 

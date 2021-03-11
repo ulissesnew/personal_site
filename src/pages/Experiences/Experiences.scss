@@ -1,9 +1,6 @@
 
-#experience {
-    overflow-y: scroll;
-}
 
-.container {
+.container-experience {
     margin: 10% auto 10%;
     display: flex;
     flex-direction: column;
@@ -14,4 +11,16 @@
     align-self: flex-start;
     position: relative;
     left: 20%;
+}
+
+
+
+@media(max-width:800px){
+    #experience {
+        margin-bottom: 50%;
+    }
+   
+    .left {
+        width: 250px;
+    }
 }

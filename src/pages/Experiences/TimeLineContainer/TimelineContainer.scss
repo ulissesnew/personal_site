@@ -18,3 +18,10 @@
     height: 100%;
     right: calc(50% - 2px);
 }
+
+@media only screen and (max-width: 767px) {
+    .timeline-container {
+        width: 300px;
+
+    }
+}

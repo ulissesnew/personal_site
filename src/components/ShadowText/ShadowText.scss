@@ -12,7 +12,13 @@
         line-height: 0.8;
     }
 }
-@media(max-width:700px){
+
+@media(max-width:1200px) and (min-width:891px){
+    #text-shadow {
+        font-size: 5rem;
+    }
+}
+@media(max-width:800px){
     #text-shadow {
         font-size: 3rem;
     }

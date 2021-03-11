@@ -1,14 +1,9 @@
-#testimonials {
-    // margin-top: 50px;
-    // margin-bottom: 50px;
-}
+
 .testimonials {
-    // background-color: brown;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    // padding: 10%;
     margin-left: 10%;
     margin-right: 10%;
     #shape-yellow{
@@ -33,7 +28,6 @@
                 
             }
         }
-        // width: 60%;
         #controls {
            position: relative;
            left: 70%;
@@ -75,7 +69,6 @@
         }
     }
     #item {
-        // background-color: gray;
         width: 90%;
         max-width: 800px;
     }
@@ -95,16 +88,13 @@
         }
         #description {
             margin: 10px;
-            // background-color: pink;
         }
     }
 }
 
 @media(max-width:700px){
     .testimonials{
-        #shape-yellow{
-            // height: 100%;
-        }
+       
         align-items: center;
         .carousel {
             align-items: center;

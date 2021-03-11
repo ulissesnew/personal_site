@@ -5,13 +5,12 @@ import BigText from "../../components/BigText/BigText";
 import ShadowText from "../../components/ShadowText/ShadowText";
 import BackgroundExperiences from "./BackgroundExperiences/BackgroundExperiences"
 import dataTimeline from "./dataTimeline";
-import TimeLineItem from "./TimelineItem/TimelineItem"
 import TimelineContainer from "./TimeLineContainer/TimeLineContainer";
 
 const Experiences = () => {
     return (
         <Section id="experience">
-                <div className="container"> 
+                <div className="container-experience"> 
                     <BackgroundExperiences/>
 
                     <ShadowText 
